@@ -1,0 +1,73 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  padding: 8px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.submit-btn,
+.add-btn,
+.clear-btn {
+  padding: 10px 15px;
+  margin: 10px 5px 20px 0;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.clear-btn {
+  background-color: crimson;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.logs {
+  margin-top: 40px;
+}
+
+.logs ul, .container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.logs li, .container li {
+  margin-bottom: 8px;
+}
+
+.timestamp {
+  color: gray;
+  font-size: 0.9em;
+}
+
